@@ -1,0 +1,20 @@
+{
+  "name": "Onnx-Dev",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "latest",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "jsonwebtoken": "^8.1.0",
+    "moment": "^2.19.1",
+    "mongoose": "^4.10.8",
+    "nodemailer": "^4.4.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

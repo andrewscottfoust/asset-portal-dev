@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0px;
+  }
+  
+  /*======= FORMS =========*/
+  
+  input {
+    border: 1px solid #dfdfdf;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    margin: 0px;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 1px solid #dfdfdf;
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  button {
+    font-size: 16px;
+    background: #2196f3;
+    border: 1px solid #f6f5f6;
+    color: #fff;
+    padding: 5px 10px;
+  }
+  
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #d0d0d0;
+    font-weight: 300;
+    font-style: italic;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #d0d0d0;
+    font-weight: 300;
+    font-style: italic;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #d0d0d0;
+    font-weight: 300;
+    font-style: italic;
+  }
+  :-moz-placeholder {
+    /* Firefox 18- */
+    color: #d0d0d0;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  /*======= TABLES =========*/
+  table {
+    width: 100%;
+  }
+
+  tr {
+    border-top: 1px solid #333333;
+  }
+
+  th {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /*======= HOME =========*/
+  .container.wrapper {
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .container.wrapper a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .container.wrapper .item {
+    margin-bottom: 10px;
+    border: 1px solid #f3f3f3;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.14);
+  }
+  
+  .container.wrapper .item .top {
+    box-sizing: border-box;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 5px 10px;
+  }
+  .container.wrapper .item .title {
+    font-weight: 700;
+    color: #5a5a5a;
+  }
+  
+  .container.wrapper .item .content {
+    box-sizing: border-box;
+    padding: 10px;
+    font-weight: 300;
+  }
+  
+  .container.wrapper .item .bottom {
+    position: relative;
+    height: 29px;
+  }
+  .container.wrapper .item .bottom .rating {
+    right: 0px;
+    position: absolute;
+    background: #e95653;
+    color: #fff;
+    padding: 5px;
+  }
+  .container.wrapper .item .bottom .rating span {
+    color: #3c3c3c;
+    font-weight: 700;
+  }
+  

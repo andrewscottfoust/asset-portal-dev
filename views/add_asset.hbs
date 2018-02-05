@@ -1,0 +1,18 @@
+<div class="container_register" data-user="{{user.username}}">
+    <a href="/admin">Back</a>
+    <h1>Add a new asset</h1>
+    <form id="add_asset_form">
+        <div>
+            <input type="file" id="filename" name="filename">
+        </div>
+        <div>
+            <input type="text" id="name" name="name" placeholder="Name">
+        </div>
+        <div>
+            <textarea id="description" name="description" placeholder="Enter description here."></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<script src="/js/add_asset.js"></script>
